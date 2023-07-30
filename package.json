@@ -1,0 +1,28 @@
+{
+  "name": "osf-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-uglifycss": "^1.1.0",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-scss": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeliaPolocoser/OSF-Academy.git"
+  },
+  "author": "Delia Polocoser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeliaPolocoser/OSF-Academy/issues"
+  },
+  "homepage": "https://github.com/DeliaPolocoser/OSF-Academy#readme"
+}

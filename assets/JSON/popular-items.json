@@ -1,0 +1,22 @@
+{
+    "1": {
+        "title": "Our Awesome Product 1",
+        "price": 799.55,
+        "image_url": "assets/images/Product/product1.png"
+    },
+    "2": {
+        "title": "Our Awesome Product 2",
+        "price": 659.55,
+        "image_url": "assets/images/Product/product5.png"
+    },
+    "3": {
+        "title": "Hay - About A Lounge Chair AAL 93",
+        "price": 59.55,
+        "image_url": "assets/images/Product/product7.png"
+    },
+    "4": {
+        "title": "Our Awesome Product 4",
+        "price": 839.04,
+        "image_url": "assets/images/Product/product3.png"
+    }
+}

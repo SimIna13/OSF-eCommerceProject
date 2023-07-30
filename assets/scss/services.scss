@@ -1,0 +1,130 @@
+.services-list-page {
+    background-color: #f1edea;
+    padding: 60px 50px 30px 50px;
+    font-family: "Lato";
+    margin-top: 62px;
+    a {
+        color: #84bc22;
+    }
+
+    h1 {
+        font-weight: 900;
+        color: rgba(69, 65, 62, 255);
+        &::before,
+        &::after {
+            display: inline-block;
+            content: "";
+            border-top: 0.2rem solid white;
+            width: 41%;
+            margin: -4px 2rem -4px 0;
+            transform: translateY(-1rem);
+        }
+
+        &::after {
+            margin: -4px 0 -4px 2rem;
+        }
+    }
+    .filter {
+        background-color: white;
+
+        #white {
+            background: white;
+        }
+        #turquoise {
+            background: #43c0cf;
+        }
+
+        #gray {
+            background: #3d402f;
+        }
+
+        #green {
+            background: #4aaf00;
+        }
+
+        #blue {
+            background: #315bbd;
+        }
+
+        #orange {
+            background: #ec6115;
+        }
+
+        #red {
+            background: #dc041d;
+        }
+
+        #light-gray {
+            background: #efead7;
+        }
+
+        input[type="radio"] {
+            -webkit-appearance: none;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            outline: none;
+            cursor: pointer;
+        }
+
+        input[type="radio"]:before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            margin: -5px;
+            border-radius: 50%;
+        }
+        input[type="radio"]:checked:before {
+            width: 20px;
+            height: 20px;
+            border: 3px solid #d8d7d6;
+        }
+    }
+    label {
+        margin-top: 35px;
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        color: rgba(69, 65, 62, 255);
+    }
+    #color-checkbox {
+        margin-right: 47px;
+    }
+    select {
+        margin-top: 30px;
+        border-radius: 30px;
+        border-color: #a2a09e;
+        border-width: 2px;
+        width: 172px;
+
+        option{
+            width: 20px;
+        }
+    }
+    .form-check-input {
+        margin-right: -3px;
+    }
+}
+
+.background-gray {
+    background-color: #f1edea;
+    .elements-apparel {
+        color: #736f6c;
+        font-weight: bold;
+        font-size: 20px;
+        span {
+            font-weight: bold;
+        }
+    }
+}
+
+#load-more-popular-items {
+    background-color: #84bc22;
+    color: white;
+    height: 41px;
+    width: 160px;
+    opacity: 1;
+    font-size: 13px;
+    border-color: #d9d9d9;
+}

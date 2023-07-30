@@ -1,0 +1,50 @@
+#slider-featured-products {
+    .owl-nav {
+        position: absolute;
+        top: -70px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        button.owl-next,
+        button.owl-prev {
+            width: 30px;
+            height: 30px;
+            background-color: #2d343a;
+            color: white;
+            opacity: 100%;
+            position: absolute;
+
+            span {
+                font-size: 20px;
+            }
+        }
+
+        button.owl-next{
+            left: 260px;
+        }
+        button.owl-prev{
+            right: 260px;
+        }
+    }
+
+    .card {
+        height: 310px;
+        width: 280px;
+        img {
+            height: 200px;
+        }
+        .card-body {
+            .card-text {
+                color: rgba(69, 65, 62, 255);
+                font-size: 15px;
+                font-weight: normal;
+            }
+            .green {
+                color: rgba(132, 188, 34, 255);
+                font-weight: 900;
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.banner {
+    height: 500px;
+    background: url(../images/Banner/Banner.png);
+    color: white;
+    border-top: 0.1rem solid#5a7590;
+    border-bottom: 0.1rem solid#5a7590;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    p {
+        &:nth-child(1) {
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        &:nth-child(2) {
+            font-size: 15px;
+            width: 360px;
+            margin-left: 30px;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+* {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Lato";
+}
+.footer {
+    padding-left: 60px;
+}
+.first-col {
+    p {
+        color: rgba(69, 65, 62, 255);
+
+        &:nth-child(2) {
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        a {
+            color: #45413e;
+            text-decoration: none;
+        }
+    }
+}
+
+.second-col,
+.third-col,
+.fourth-col,
+.fifth-col {
+    p {
+        color: rgba(134, 131, 128, 255);
+        &:nth-child(1) {
+            text-transform: uppercase;
+            font-weight: 600;
+            color: rgba(69, 65, 62, 255);
+        }
+        a {
+            color: rgba(134, 131, 128, 255);
+        }
+    }
+}
+.sixth-col {
+    color: #b2b2b2;
+    i {
+        width: 33px;
+        font-size: 17px;
+    }
+}

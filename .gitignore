@@ -1,0 +1,11 @@
+# NodeJS
+/node_modules
+
+# Visual Sudio Code
+.vs
+
+# dist folder
+.dist
+
+#css
+assets/css

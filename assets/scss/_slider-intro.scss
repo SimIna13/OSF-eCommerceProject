@@ -1,0 +1,143 @@
+.slider-row {
+    padding: 25px 50px;
+}
+
+#slider-intro {
+    .informations-slider {
+        position: absolute;
+        top: 0px;
+        width: 75%;
+        padding: 75px 50px;
+        color: white;
+
+        p {
+            font-size: 40px;
+            font-weight: bolder;
+
+            &:nth-child(2) {
+                margin-top: 62px;
+                font-size: 15px;
+                font-weight: 400;
+                width: 65%;
+            }
+        }
+        button {
+            @extend button;
+        }
+    }
+
+    .informations-slider1 {
+        @extend .informations-slider;
+        button {
+            margin-top: 50px;
+        }
+    }
+    .informations-slider2 {
+        @extend .informations-slider;
+        width: 100%;
+        text-align: center;
+
+        p {
+            display: block;
+            margin: auto;
+
+            &:nth-child(1) {
+                width: 70%;
+            }
+
+            &:nth-child(2) {
+                width: 50%;
+                margin-top: 50px;
+            }
+        }
+        button {
+            margin-top: 80px;
+        }
+    }
+    .informations-slider3 {
+        @extend .informations-slider;
+        width: 100%;
+        text-align: right;
+        p {
+            display: block;
+            margin: auto;
+            margin-right: 0;
+            &:nth-child(1) {
+                width: 70%;
+            }
+
+            &:nth-child(2) {
+                width: 50%;
+            }
+        }
+
+        button {
+            margin-top: 60px;
+        }
+    }
+
+    .owl-carousel {
+        position: relative;
+    }
+
+    .owl-carousel .owl-item {
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .owl-dots {
+        text-align: center;
+        padding-top: 15px;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+    }
+    .owl-dots button.owl-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        display: inline-block;
+        background: #ccc;
+        margin: 0 6px;
+    }
+    .owl-dots button.owl-dot.active {
+        background-image: url(../images/circle-regular.svg);
+        height: 15px;
+        width: 15px;
+        background-color: transparent;
+        mask-image: url(../images/circle-regular.svg);
+    }
+    .owl-dots button.owl-dot:focus {
+        outline: none;
+    }
+}
+
+.follow {
+    font-family: "Lato";
+    text-align: center;
+    #followFacebook {
+        width: 75%;
+        display: block;
+        margin: auto;
+        h5 {
+            padding-top: 10px;
+            color: rgba(69, 65, 62, 255);
+        }
+        p {
+            font-size: 13px;
+            font-weight: bold;
+            color: rgba(69, 65, 62, 255);
+        }
+        button {
+            @extend button;
+            color: rgba(58, 91, 150, 255);
+            border-color: rgba(58, 91, 150, 255);
+            opacity: 100%;
+            a {
+                color: rgba(58, 91, 150, 255);
+                text-decoration-line: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+button {
+    text-transform: $textUpper;
+    border-radius: 50px;
+    width: 150px;
+    background: transparent;
+    border-color: white;
+    border-width: 2px;
+    opacity: 75%;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+    background-color: transparent;
+    border-color: white;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: none;
+}
+
+.btn-primary.hover,
+.btn-primary:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-primary.active,
+.btn-primary:active {
+    background-color: black;
+    border-color: black;
+}
